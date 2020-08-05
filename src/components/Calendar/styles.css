@@ -1,0 +1,21 @@
+.row, .header{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    width: 568px;
+}
+
+.header{
+    background-color: #2F74B5;
+    width: 560px;
+    
+}
+
+.classWeekDay{
+    display: flex;
+    width: 82px;
+    align-items: center;
+    justify-content: center;
+    color: #E7F4F7;
+    font-weight: 500;
+}
