@@ -1,0 +1,15 @@
+.App {
+  
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+button{
+
+  outline:none;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
