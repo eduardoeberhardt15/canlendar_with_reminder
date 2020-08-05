@@ -1,0 +1,102 @@
+.container{
+    width: 422px;
+    height: 351px;
+    background-color: white;
+    position: absolute;
+    margin-top:68px;
+    margin-left: 70px;
+    box-shadow: 0 0 40px 5px;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btnNew{
+
+    display: flex;
+    align-items: center;
+    color: cornflowerblue;
+    transition: 0.6s;
+    height: 40px;
+}
+
+.btnNew:hover{
+    color:rgb(88, 103, 236);
+}
+
+textarea{
+    resize: none;
+    line-height: 24px;
+    margin: 5px;
+    width: 180px;
+}
+
+.divReminderData{
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    margin: 5px;
+    width: 180px;
+}
+
+.buttonColor{
+    width: 50px;
+    height: 20px;
+}
+
+.containerColor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    color: rgb(107, 107, 107);
+    width: 100px;
+}
+.btnClose{
+
+    position: absolute;
+    top:-1px;
+    right: -2px;
+}
+
+.remind{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.remind >div{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.reminders{
+     width: 100%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnRemind{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    padding: 5px;
+}
